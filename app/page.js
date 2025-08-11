@@ -28,9 +28,10 @@ export default function Home() {
     });
 
   return (
-    <main className="h-screen flex items-center justify-center border-4 m-8 ">
-      {/* Responsive container: full width on small screens, capped at lg screen width */}
-      <section className="w-full lg:max-w-screen-lg rounded-2xl border border-white/20 bg-gray-800/60 backdrop-blur p-6 shadow-lg">
+    <main className="h-screen flex items-center justify-center border-4 m-8 bg-blue-900 ">
+      
+      <section className="w-full lg:max-w-screen-lg rounded-2xl border border-white bg-gray-800 backdrop-blur p-6 shadow-lg">
+        
         <header className="flex justify-center">
           <h2 className="text-lg font-semibold tracking-tight border px-3 py-1 rounded hover:bg-blue-500/90 transition">
             Form Jalal sami
